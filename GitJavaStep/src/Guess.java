@@ -5,5 +5,8 @@ public class Guess{
 
         if(ch == answer) System.out.println("*** Pravilno ***");
         else System.out.println("Ne ugadali");
+
+        ProvaGit provaGit = new ProvaGit();
+        provaGit.prova = 4;
     }
 }

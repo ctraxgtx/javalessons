@@ -16,7 +16,7 @@ public class VehivleDemo {
         Vehicle car2 = car1;
 
         System.out.println(car1.mpg);
-        System.out.println(car2.mpg);
+        System.out.println(car1.mpg);
 
     }
 }

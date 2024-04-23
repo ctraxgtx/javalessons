@@ -8,5 +8,11 @@ public class Guess{
 
         ProvaGit provaGit = new ProvaGit();
         provaGit.prova = 4;
+        SectortOne sectortOne = new SectortOne();
+        sectortOne.nameSector = "Sector One";
+        sectortOne.placeSector = 55;
+
+        System.out.print(sectortOne.nameSector + " ");
+        System.out.println(sectortOne.placeSector);
     }
 }

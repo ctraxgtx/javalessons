@@ -6,8 +6,8 @@ public class Guess{
         if(ch == answer) System.out.println("*** Pravilno ***");
         else System.out.println("Ne ugadali");
 
-        ProvaGit provaGit = new ProvaGit();
-        provaGit.prova = 4;
+        ProvaGit prova = new ProvaGit();
+        prova.prova = 4;
         SectortOne sectortOne = new SectortOne();
         sectortOne.nameSector = "Sector One";
         sectortOne.placeSector = 55;

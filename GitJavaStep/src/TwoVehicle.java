@@ -1,7 +1,7 @@
 public class TwoVehicle {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportcare = new Vehicle();
+        Vehicle minivan = new Vehicle(5,1,1);
+        Vehicle sportcare = new Vehicle(3,1,2);
 
         int range1, range2;
 

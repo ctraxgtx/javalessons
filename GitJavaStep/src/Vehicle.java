@@ -3,11 +3,19 @@ public class Vehicle {
     int fuelcap;
     int mpg;
 
-    int range(){
+    Vehicle(int p, int f, int m) {
+        passengers = p;
+        fuelcap = f;
+        mpg = m;
+    }
+
+    int range() {
         return mpg * fuelcap;
     }
 
-    double fuelneeded(int milles){
+    double fuelneeded(int milles) {
         return (double) milles / mpg;
     }
+
+
 }

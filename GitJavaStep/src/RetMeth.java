@@ -1,7 +1,7 @@
 public class RetMeth {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportcare = new Vehicle();
+        Vehicle minivan = new Vehicle(7,19,21);
+        Vehicle sportcare = new Vehicle(2,14,12);
 
         int range1, range2;
 

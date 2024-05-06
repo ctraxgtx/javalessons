@@ -1,7 +1,17 @@
 public class MyClass {
-    int x;
+    private int alpha; // Закрытый доступ
+    public int beta; // Открытый доступ
+    int gamma; // тип доступа по умолчанию (по сути, public)
 
-    MyClass(int i){
-        x = i;
+    // Методы доступа к переменной alpha. Члены класса мочут
+    // обращаться к закрытым членам того же класса.
+
+    void setAlpha(int a){
+        alpha = a;
     }
+    int getAlpha(){
+        return alpha;
+    }
+
+
 }

@@ -7,6 +7,11 @@ public class MainClassOOP {
         System.out.println("Parrent Class set/get numberOne = " +parrentClass.getNumberOne());
 
         System.out.println("get number from parrent class = " + o);
+
+        Iphone iphone1 = new Iphone("x", "black",998);
+        Iphone iphone2 = new Iphone("x", "black",999);
+
+        System.out.println(iphone1.equals(iphone2));
     }
     public static String print(String text){
         System.out.println(text);

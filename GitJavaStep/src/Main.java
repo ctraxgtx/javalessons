@@ -5,13 +5,12 @@ import myjavelessons2024.StaticVariablesAndMethods;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        StaticVariablesAndMethods staticVariablesAndMethods = new StaticVariablesAndMethods();
-        staticVariablesAndMethods.show();
-        House house = new House(0,0,0);
-        house.setFloors(3);
-        house.setPlace(300);
-        house.setRoom(50);
-        house.infoCam(house.getFloors(), house.getPlace(), house.getRoom());
+        int min = Integer.MIN_VALUE;
+        System.out.println(min);
+
+        System.out.println(Integer.toHexString(min));
+        System.out.println(Integer.toBinaryString(min));
+        System.out.println(Integer.toOctalString(min));
     }
 
 }
